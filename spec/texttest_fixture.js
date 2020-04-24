@@ -16,6 +16,7 @@ const items = [
 ];
 
 const days = Number(process.argv[2]) || 2;
+
 const gildedRose = new Shop(items);
 
 console.log("OMGHAI!");
